@@ -27,4 +27,4 @@ for number_amount in range(0, nr_numbers):
   password+=number
 
 final_password=''.join(random.sample(password, len(password)))
-print(final_password) 
+print(f'Your password is:{final_password}') 
